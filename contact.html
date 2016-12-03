@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="sample-registration-form-validation.js"></script> 
+	<style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+	   background-image:url("ok.jpeg");
+	  
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+      background-color: #1abc9c; 
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d; 
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff;
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color: #2f2f2f; 
+      color: purple;
+  }
+  .hero-feature {
+    margin-bottom: 30px;
+	 
+}
+  .privacy pull-left{color : black;}
+  .container{
+	 margin-left : 150px;
+	  margin-right : 150px;
+	  float : left;
+  }
+  .container-fluid {
+      padding-top: 10px;
+      padding-bottom: 10px;
+	  margin-left : 120px;
+	  margin-right : 120px;
+	  
+	  
+	  margin-bottom  :30px;
+	  
+	  border-radius : 1em;
+  }
+  .navbar {
+      padding-top: 0;
+      padding-bottom: 0;
+      border: 2px solid black;
+      border-radius: 30px;
+      margin-bottom: 0;
+      font-size:15px;
+      font-weight : bold;
+	  display : inline;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+	  
+  }
+  
+  .thumbnail > img{
+  height  :150px;
+  width : 1000px;
+  }
+  .caption{
+  color : red;}
+  
+  p{
+  color : black;
+  }
+  
+  .img-rounded{
+  border-radius : 1em;
+  }
+  
+  
+  .footer-right
+{
+  float : right;
+  color : gray;
+  float  :center;}
+  
+ 
+  </style>
+	
+	<script type="text/javascript">if($(window).width()>1024){document.write("<"+"script src='js/jquery.preloader.js'></"+"script>");}	</script>
+
+	
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#" style="color: red; font-size : 30px;">BookBucket</a>
+    </div>
+	
+    <div class="collapse navbar-collapse" id="myNavbar">
+	<ul class="nav navbar-nav navbar-right">
+		 <div>
+      <ul class="nav navbar-nav">
+	  <li><form>
+	City Name: <input type="text" onKeyUp="ajaxFunction(this.value)" width = "10px"/>
+	<div id="cityDiv"></div> </form></li>
+
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Information <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+		  
+            <li><a href="#">Alumni</a></li>
+            <li><a href="#">Alumni Assosiates</a></li>
+            <li><a href="#">Feedback</a></li>
+           
+          </ul>
+        </li>
+		<li><a href="#">Students</a></li>
+		<li><a href="#">Faculty</a></li>
+        <li><a href="contact.html">Staff</a></li>
+        <li><a href="SignUp.html">SignUp</a></li>
+		
+      </ul>
+    </div>
+    </div>
+  </div>
+</nav>
+<div class="bg-4"> 
+      <!-- content -->
+      <div id="content"><div class="ic"></div>
+    <div class="container">
+          <div class="row">
+        
+        <article class="span12">
+              <h2>Contact info</h2>
+              <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.7662825314233!2d-71.08408968500241!3d42.34750604388765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37a0fb3130c95%3A0x33638fdca4d86710!2sThe+Shops+at+Prudential+Center!5e0!3m2!1sen!2sus!4v1450435993505"  width="1000" height="450" frameborder="0" style="border:0"></iframe>
+          </div>
+              <address class="address-1">
+          <strong>BookBucket,
+		  Massachusetts, US.</strong>
+          <div class="overflow"> <span>Mobile:</span>(857)-308-7599<br>
+                <span>E-mail:</span> <a href="#" class="mail-1">dhavalsanghvi8@gmail.com</a><br>
+				
+          </address>
+            </article>
+      </div>
+        </div>
+  </div>
+    </div>
+
+
+
+</body>
+</html>
+
